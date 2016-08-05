@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="batch9.crayonpedia.tadj" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_tadj_bird"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Index"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Berita"
+            android:label="@string/title_activity_news"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.Berita" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Copyright"
+            android:label="@string/title_activity_copyright"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.Copyright" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BeritaDetail"
+            android:label="@string/title_activity_berita_detail"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.BeritaDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TugasAkhirDetail"
+            android:label="@string/title_activity_tugas_akhir_detail"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.TugasAkhirDetail" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bimbingan"
+            android:label="@string/title_activity_bimbingan"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.Bimbingan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LakukanBimbingan"
+            android:label="@string/title_activity_lakukan_bimbingan"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.LakukanBimbingan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UbahDeskripsiTugasAkhir"
+            android:label="@string/title_activity_ubah_deskripsi_tugas_akhir"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.UbahDeskripsiTugasAkhir" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UbahVideoProdukTugasAkhir"
+            android:label="@string/title_activity_ubah_video_produk_tugas_akhir"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.UbahVideoProdukTugasAkhir" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UbahSampulGambarTugasAkhir"
+            android:label="@string/title_activity_ubah_sampul_tugas_akhir"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.UbahSampulGambarTugasAkhir" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PengajuanJudulTugasAkhir"
+            android:label="@string/title_activity_pengajuan_judul_tugas_akhir"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="batch9.crayonpedia.tadj.PengajuanJudulTugasAkhir" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

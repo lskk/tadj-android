@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="array_planets">
+        <item>Earth</item>
+        <item>Saturn</item>
+        <item>Jupiter</item>
+    </string-array>
+    <string name="app_name">TADJ</string>
+    <string name="action_settings">Copyright</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_copyright">Copyright</string>
+    <string name="title_activity_berita_detail">Detail Berita</string>
+    <string name="title_activity_list_tugas_akhir">List Tugas Akhir</string>
+    <string name="title_activity_tugas_akhir_detail">Tugas Akhir Detail</string>
+    <string name="title_activity_bimbingan">Bimbingan</string>
+    <string name="title_activity_lakukan_bimbingan">Lakukan Bimbingan</string>
+    <string name="title_activity_ubah_deskripsi_tugas_akhir">UbahDeskripsiTugasAkhir</string>
+    <string name="title_activity_ubah_video_produk_tugas_akhir">UbahVideoProdukTugasAkhir</string>
+    <string name="title_activity_ubah_sampul_tugas_akhir">Ubah Sampul Tugas Akhir</string>
+    <string name="title_activity_pengajuan_judul_tugas_akhir">Pengajuan Judul Tugas Akhir</string>
+</resources>
